@@ -3,7 +3,7 @@ using namespace std;
 
 class student //^ structure is replaced by class with more feature's
 {
-       // ⁡⁢⁢⁣Initialization of clas⁡s
+       // ⁡⁢⁢⁣Initialization of class
        //  In classes the data is by default private hota hai
        //  if I write like this it can work --- > int a , b ,c ;
   
