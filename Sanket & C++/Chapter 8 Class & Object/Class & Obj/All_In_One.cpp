@@ -18,14 +18,19 @@ class Hero {
         name = new char[100];
     }
 
-    //Paramerterised Constructor
+    //parameterized Constructor
     Hero(int health) {
         this -> health = health;
     }
 
-    Hero(int health, char level) {
-        this -> level = level;
-        this -> health = health;
+    // Hero(int health, char level) {
+    //     this -> level = level;
+    //     this -> health = health;
+    // }
+
+    Hero(int a, char c) {
+        a = level;
+        c = health;
     }
 
     //copy constructor
@@ -74,7 +79,7 @@ class Hero {
 
     //Destructor
     ~Hero() {   
-        cout << "Destructor bhai called" << endl;
+        cout << "Destructor  called" << endl;
     }
 
 };
@@ -125,7 +130,7 @@ int main() {
 
 //     hero1.setHealth(12);
 //     hero1.setLevel('D');
- //    char name[7] = "Babbar";
+ //    char name[7] = "Sanket";
 //     hero1.setName(name);
 
 //     //hero1.print();
@@ -181,15 +186,16 @@ int main() {
 
 
 
-    /*
-    //static allocation
+    
+  // ? static allocation
+
     Hero a;
     a.setHealth(80);
     a.setLevel('B');
     cout << "level is  " << a.level << endl;
     cout << " health is " << a.getHealth() << endl;
 
-    //dynamicallly
+   // ? Dynamically
     Hero *b = new Hero;
     b->setLevel('A');
     b->setHealth(70);
@@ -199,7 +205,7 @@ int main() {
 
     cout << "level is  " << b->level << endl;
     cout << " health is " << b->getHealth() << endl;
-    */
+    
     
 
 
