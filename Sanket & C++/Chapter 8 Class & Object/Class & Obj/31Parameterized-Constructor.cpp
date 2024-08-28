@@ -14,7 +14,7 @@ class Complex
 public:
     Complex(int, int); // --->>> constructor declaration..
      void printNumber() {
-        cout << "Your number is " << a << " + " << b << "i" << endl;
+        cout << "Your number is " << a << " + " << b << endl;
      }
 };
 

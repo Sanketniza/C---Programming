@@ -6,6 +6,7 @@
 using namespace std;
 
 class Complex {
+
     int real, imaginary;
 
 public:
@@ -59,18 +60,22 @@ class simple
     int data3;
 
 public:
+
     simple(int a, int b = 6, int c = 3)
     {
         data1 = a;
         data2 = b;
         data3 = c;
     }
+
     void printdata();
 };
+
 void simple ::printdata()
 {
     cout << " The value of data1 , data2 , data3 is : " << data1 << " ," << data2 << " and " << data3 << endl;
 }
+
 int main()
 {
     simple s(4,5);  // here you are not giving the value of "c " but value of "c " is given in public simple that is c = 3 also for b and a . but in case "a" in public we not 
