@@ -19,7 +19,7 @@
 //* The existing class is called as the Base class
 //* The new class which inherits is called as the Derived class
 //* reusing classes save time and money
-// todo --> suppose we have one class . This class is Base class because from this class we can create derived class . What is derived class --> suppose mazya kade ek employee name chi class ahe . tya pasun mi programer class banavali tyala mi derived class mhanato . jya jya methods and properties we are created in base class that not need to inherit(write) in derived class. we are extending the base class in derived class.
+// todo --> suppose we have one class . This class is Base class because from this class we can create derived class . What is derived class --> suppose mazya kade ek employee name cha class ahe , tya pasun mi programer class banavali tyala programmer class la  mi derived class mhanato . jya jya methods and properties we are created in base class that not need to inherit(write) in derived class. we are extending the base class in derived class.
 
 
 /* -------------------------------------------------------------------------- */
@@ -48,7 +48,7 @@
 
     //? 4) Multilevel inheritance
     //* Deriving a class from already derived class
-    // todo --> Mammal = Animal + more
+    // todo --> A --> B --> C --> D
     
     //? 5) Hybrid inheritance
     //* Hybrid inheritance is a combination of multiple inheritance and multiple inheritance

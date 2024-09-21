@@ -92,18 +92,18 @@ public:
     int getData2();  // * If I take here void getData2() , I don't know why its show me error
 };
 
-void base ::setData(void)
+void base :: setData(void)
 {
     data1 = 10;
     data2 = 20;
 }
 
-int base ::getData1()
+int base ::getData1() // to access the private member data1 outside the class
 {
     return data1;
 }
 
-int base ::getData2()
+int base ::getData2() // here we use getter function
 {
     return data2;
 }

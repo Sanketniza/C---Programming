@@ -10,7 +10,7 @@ using namespace std;
  //todo --> base class.....
 
  class Employee
-   {
+    {
       public:
         int id;
         float salary;
@@ -20,7 +20,7 @@ using namespace std;
             salary = 34.0;
         }
         Employee(){}  // Default constructor --> If you making derived classes it's automatically base class constructor is called.
-   }; 
+    }; 
 
  /*                                //^ derived class syntax                          
                   class {{derived-class-name}} : {{visibility-mode}} {{base-class-name}}     
@@ -38,7 +38,7 @@ using namespace std;
 */
 
 // todo--> Creating a program class derived from Employee Base class
-class Programmer :  public Employee{     //&     public derivation
+class Programmer :  public Employee {     //&     public derivation
 
     public:
         int languageCode;
@@ -47,18 +47,19 @@ class Programmer :  public Employee{     //&     public derivation
             languageCode = 9;
         }
         void getData(){
-            cout<<"The id is "<<id<<endl;
+            cout<<"The id is "<< id << endl;
         }
 };
    
 int main() { 
 
     Employee harry(1), rohan(2);
-    cout<<harry.salary<<endl;
-    cout<<rohan.salary<<endl;
+    cout << " The id of harry is : " << harry.id << " and salary is : "<<harry.salary<<endl;
+    cout << " The id of rohan is : " << rohan.id << " and salary is : "<<rohan.salary<<endl;
+
     Programmer skillF(10);
-    cout<<skillF.languageCode<<endl;
-    cout<<skillF.id<<endl;
+    cout << " The id of skillF is : " <<skillF.languageCode<<endl;
+    cout << " The id of skillF is : " <<skillF.id<<endl;
     skillF.getData();
 
     return 0;

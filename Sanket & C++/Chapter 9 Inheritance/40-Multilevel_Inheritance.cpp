@@ -21,11 +21,11 @@ protected:
     int roll_no;
 
 public:
-    void set_roll_no(int);
-    void get_roll_no(void);
+    void set_roll_no(int); // Function declaration
+    void get_roll_no(void); // Function declaration
 };
 
-void student ::set_roll_no(int r)
+void student::set_roll_no(int r) // Function definition
 {
     roll_no = r;
 }
@@ -88,7 +88,7 @@ int main()
 
 
  /* ------------------------------------//^ By using private member -------------------------------------- */
-
+/* 
  
 #include <iostream>
 using namespace std;
@@ -161,3 +161,4 @@ int main()
 return 0;
 }
 
+ */
